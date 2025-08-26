@@ -1,6 +1,6 @@
 # Bun + React + PostgreSQL Starter on Railway
 
-Deploy a Next.js 15 application with PostgreSQL powered by the Bun runtime to Railway.
+Deploy a React application with PostgreSQL powered by the Bun runtime to Railway.
 
 ## Local Development
 
