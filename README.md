@@ -2,6 +2,8 @@
 
 Deploy a React application with PostgreSQL powered by the Bun runtime to Railway.
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bun-react-postgres?referralCode=Bun&utm_medium=integration&utm_source=template&utm_campaign=bun)
+
 ## Local Development
 
 After cloning the repository: 
