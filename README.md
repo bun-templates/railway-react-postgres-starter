@@ -38,23 +38,23 @@ After successfully authenticating, create a new project:
 
 ```bash
 # Initialize project
-bun-react-postgres$ railway init
+railway init
 
 # Add PostgreSQL database. Make sure to add this first!
-bun-react-postgres$ railway add --database postgres
+railway add --database postgres
 
 # Add your application service.
-bun-react-postgres$ railway add --service bun-react-db --variables DATABASE_URL=\${{Postgres.DATABASE_URL}}
+railway add --service bun-react-db --variables DATABASE_URL=\${{Postgres.DATABASE_URL}}
 ```
 
 After the services have been created and connected, deploy the application to Railway. By default, services are only accessible within Railway's private network. To make your app publicly accessible, you need to generate a public domain.
 
 ```bash
 # Deploy your application
-bun-nextjs-starter$ railway up
+railway up
 
 # Generate public domain
-bun-nextjs-starter$ railway domain
+railway domain
 ```
 
 ## Method 2: Deploy via Dashboard
