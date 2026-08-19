@@ -25,7 +25,7 @@ export async function createTodosTable() {
   const existingTodos = await sql`SELECT COUNT(*) as count FROM todos`;
   
   // If no todos exist, create the default one
-  if (existingTodos[0].count === 0) {
+  if (Number(existingTodos[0].count) === 0) {
     await sql`
       INSERT INTO todos (title)
       VALUES ('Deploy Bun to Railway')
