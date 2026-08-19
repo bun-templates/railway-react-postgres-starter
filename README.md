@@ -57,6 +57,10 @@ railway up
 railway domain
 ```
 
+### Auto-deploy on push
+
+`railway up` deploys once from your machine. To deploy on every `git push` instead, push this repo to GitHub, then in the Railway dashboard open your service, go to **Settings**, and under **Source** click **Connect Repo** and pick the repository and branch. From then on every push to that branch deploys on its own. The dashboard method below sets this up for you from the start.
+
 ## Method 2: Deploy via Dashboard
 
 ### Step 1: Create New Project
